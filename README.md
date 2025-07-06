@@ -10,11 +10,11 @@
 
 | Fotoğraf     | İsim                   | Rol            | Sosyal Medya              |
 |---------------|------------------------|----------------|---------------------------|
-| | Yusuf Türkay      | Product Owner | [LinkedIn](#)            |
-| | Melda Paksoy        | Scrum Master  | [LinkedIn](#)            |
-| | İlknur Yılmaz | Developer     | [LinkedIn](#)            |
-|    | Yaren Fenci   | Developer     | [LinkedIn](#)            |
-|    | Hacı Bayram Akkurt   | Developer     | [LinkedIn](#)            |
+| | Yusuf Türkay      | Product Owner | [LinkedIn](https://www.linkedin.com/in/yusufturkay/)            |
+| | Melda Paksoy        | Scrum Master  | [LinkedIn](https://www.linkedin.com/in/melda-paksoy/)            |
+| | İlknur Yılmaz | Developer     | [LinkedIn](https://www.linkedin.com/in/ilknuryilmaz0/)            |
+|    | Yaren Fenci   | Developer     | [LinkedIn](https://www.linkedin.com/in/yarenfenci/)            |
+|    | Hacı Bayram Akkurt   | Developer     | [LinkedIn](https://www.linkedin.com/in/h-bayram-akkurt/)            |
 
 ---
 
