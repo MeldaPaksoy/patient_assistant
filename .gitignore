@@ -1,0 +1,41 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Data Files (Büyük veri setlerini Git'e yüklemeyin)
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.xlsx
+data/raw/*.parquet
+data/processed/*.csv
+data/processed/*.json
+data/processed/*.xlsx
+data/processed/*.parquet
+# Eğer başka formatlarda veri kullanıyorsanız (.hdf5, .feather vb.) ekleyin
+data/**/*.h5
+data/**/*.hdf5
+data/**/*.pkl
+data/**/*.bin
+
+# Model Files (Eğitilmiş model ağırlıkları)
+models/
+*.pkl
+*.h5
+*.pth
+*.pt
+*.joblib
+*.bin
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# IDE files (IDE'nizin oluşturduğu geçici dosyalar)
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
