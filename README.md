@@ -78,6 +78,7 @@
   - RAG yapılacaklar  
   - Örnek hasta profili oluşturmak için kullanılacaklar  
 - Proje arayüz tasarımı ile ilgili ilk kararlar alındı.
+- Veri akış diagramı oluşturuldu: 🔗 [Veri Akış Diyagramını](https://meldapaksoy.github.io/patient_assistant/)
 
 ---
 
