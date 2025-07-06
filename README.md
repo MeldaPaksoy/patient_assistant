@@ -62,7 +62,7 @@
 
 ### 📅 Daily Scrum Planı
 - **Perşembe günleri:** Microsoft Teams üzerinden toplantı  
-- **Diğer günler (Pzt, Salı, Çarş, Cuma):** WhatsApp üzerinden yazılı iletişim
+- **Diğer günler:** WhatsApp üzerinden yazılı iletişim
 
 ---
 
@@ -78,7 +78,7 @@
   - RAG yapılacaklar  
   - Örnek hasta profili oluşturmak için kullanılacaklar  
 - Proje arayüz tasarımı ile ilgili ilk kararlar alındı.
-- Veri akış diagramı oluşturuldu: 🔗 [Veri Akış Diyagramını](https://meldapaksoy.github.io/patient_assistant/)
+- Veri akış diagramı oluşturuldu: 🔗 [Veri Akış Diyagramı](https://meldapaksoy.github.io/patient_assistant/)
 
 ---
 
