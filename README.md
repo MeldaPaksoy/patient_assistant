@@ -54,6 +54,16 @@
 
 # 🚀 Sprint 1
 
+### 📝 Sprint Notları
+- Proje fikri ortak kararla belirlendi.
+- Verilerin niteliği sprint başında netleştirildi.
+- Teknik görev dağılımı yapılmadan önce bireysel ön araştırmalar tamamlandı.
+- Veri setleri incelendi ve kullanılacak veri setlerine karar verildi.
+- Qdrant, Gemini ve RAG yapıları hakkında bireysel bilgi edinme süreci başlatıldı.
+- Ekip içi iletişim ve toplantı planı sprintin başında karara bağlandı.
+
+---
+
 ### 🔢 Sprint Puanlaması
 - **Tahmini tamamlanacak puan:** 100 puan  
 - **Puan mantığı:** Proje boyunca toplamda tamamlanması gereken 300 puanlık bir backlog bulunmaktadır. Bu puanlar 3 sprint'e bölünerek ilk sprintin 100 puan ile başlaması gerektiğine karar verilmiştir.
@@ -63,11 +73,21 @@
 ### 📅 Daily Scrum Planı
 - **Perşembe günleri:** Microsoft Teams üzerinden toplantı  
 - **Diğer günler:** WhatsApp üzerinden yazılı iletişim
+Daily Scrum Ekran Görüntüleri:
+![Ekran görüntüsü 2025-07-03 214540](https://github.com/user-attachments/assets/680d5d9f-24e9-4eb3-9475-67224e28323e)
+
+![Ekran görüntüsü 2025-07-07 121516](https://github.com/user-attachments/assets/d397f39a-850d-4320-a39e-623e708f6b31)
 
 ---
 
 ### 📌 Scrum Board
 ![Ekran görüntüsü 2025-07-06 185537](https://github.com/user-attachments/assets/9276b759-884a-43ad-969b-6c0e24bf3018)
+
+---
+
+### 🛠️ Ürün Durumu Ekran Görüntüleri
+Ürünümüz henüz tasarım ve veri işleme aşamasında olduğu için bir ekran görüntüsü bulunmamaktadır. 
+Oluşturduğumuz veri akışı diagramına buradan ulaşabilirsiniz: 🔗 [Veri Akış Diyagramı](https://meldapaksoy.github.io/patient_assistant/)
 
 ---
 
