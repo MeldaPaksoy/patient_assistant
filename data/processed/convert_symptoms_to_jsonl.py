@@ -3,7 +3,7 @@ import json
 import os
 
 # Giriş ve çıkış yolları
-input_path = "raw/clinical_conditions_symptoms/Disease_symptom_and_patient_profile_dataset.csv"
+input_path = "C:/Users/LENOVO/Desktop/patient_assistant/data/raw/clinical_conditions_symptoms/Disease_symptom_and_patient_profile_dataset.csv"
 output_path = "processed/clinical_conditions_info.jsonl"
 
 # Klasör yoksa oluştur
