@@ -1,8 +1,17 @@
 from datasets import load_dataset
-from transformers import AutoTokenizer, AutoModelForQuestionAnswering, Trainer, TrainingArguments, DefaultDataCollator
+from transformers import (
+    AutoTokenizer,
+    AutoModelForQuestionAnswering,
+    Trainer,
+    TrainingArguments,
+    DataCollatorWithPadding,
+    EarlyStoppingCallback,
+    DefaultDataCollator
+)
+
 import torch
 
-# Model ismini belirt 
+
 model_name = "kaixkhazaki/turkish-medical-question-answering"
 
 print("Model ve tokenizer yükleniyor...")
@@ -10,10 +19,12 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForQuestionAnswering.from_pretrained(model_name)
 
 print("Dataset yükleniyor...")
+
 data_files = {
-    "train": "data/train.json",       # Dosya yollarını kendi ortamına göre ayarla
-    "validation": "data/validation.json"
+    "train": "train.json",
+    "validation": "validation.json"
 }
+
 dataset = load_dataset("json", data_files=data_files)
 
 def preprocess_function(examples):
@@ -67,7 +78,7 @@ def preprocess_function(examples):
                     token_start_index += 1
                 start_positions.append(token_start_index - 1)
 
-                while offsets[token_end_index][1] >= end_char:
+                while token_end_index >= 0 and offsets[token_end_index][1] >= end_char:
                     token_end_index -= 1
                 end_positions.append(token_end_index + 1)
 
@@ -82,9 +93,9 @@ training_args = TrainingArguments(
     output_dir="./results",
     evaluation_strategy="epoch",
     learning_rate=3e-5,
-    per_device_train_batch_size=8,
+    per_device_train_batch_size=2,
     per_device_eval_batch_size=8,
-    num_train_epochs=3,
+    num_train_epochs=1,
     weight_decay=0.01,
     save_total_limit=2,
     save_strategy="epoch",
