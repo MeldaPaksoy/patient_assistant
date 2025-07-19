@@ -109,4 +109,52 @@ Oluşturduğumuz veri akışı diagramına buradan ulaşabilirsiniz: 🔗 [Veri 
   - RAG yapısını belirleme
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# 🚀 Sprint 2
+
+### 📝 Sprint Notları
+- Verilerin ön işlemesi yapıldı.
+- Embeddinglerin bir kısmı yapıldı.
+- MedGemma modelinin kullanılmasına karar verildi.
+- Fine tuning yapıldı fakat model çok kısa cevaplar verdi.
+- Arayüz oluşturuldu.
+- Veriler kategorize edildi.
+
+---
+
+### 🔢 Sprint Puanlaması
+- **Tahmini tamamlanacak puan:** 100 puan  
+- **Puan mantığı:** Proje boyunca toplamda tamamlanması gereken 300 puanlık bir backlog bulunmaktadır. Bu puanlar 3 sprint'e bölünerek her sprintin 100 puan olması gerektiğine karar verilmiştir.
+
+---
+
+### 📅 Daily Scrum Planı
+- **Perşembe günleri:** Microsoft Teams üzerinden toplantı  
+- **Diğer günler:** WhatsApp üzerinden yazılı iletişim
+Daily Scrum Ekran Görüntüleri:
+![WhatsApp Görsel 2025-07-19 saat 19 20 54_b443a74f](https://github.com/user-attachments/assets/bdc3f380-c6e4-43b0-872b-709e08eca3c2)
+
+
+
+---
+
+### 📌 Scrum Board
+<img width="1702" height="810" alt="Ekran görüntüsü 2025-07-19 185241" src="https://github.com/user-attachments/assets/e5a1ac22-f7ba-4fdd-b7cb-eddbc088c71c" />
+
+---
+
+### 🛠️ Ürün Durumu Ekran Görüntüleri
+
+---
+
+### ✅ Sprint Review
+- Toplantıların haftada 1 gün Microsoft Teams üzerinden 6 gün Whatsapp üzerinden olacak şekilde devam etmesine karar verildi.
+- Fine tuningden sonra modelin kısa cevaplar verdiği görüldü, RAG yapıldıktan sonra cevapların iyileşeceği düşünüldüğü için beklenmesine karar verildi. 
+---
+
+### 🔄 Sprint Retrospective
+- Görev dağılımı aşağıdaki şekilde yapıldı:
+  - Veri düzenleme  
+  - Arayüzü geliştirme  
+  - RAG yapısını oluşturma
