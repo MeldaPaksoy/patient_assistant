@@ -142,7 +142,7 @@ Daily Scrum Ekran Görüntüleri:
 
 ### 📌 Scrum Board
 
-<img width="1702" height="810" alt="Ekran görüntüsü 2025-07-19 185241" src="https://github.com/user-attachments/assets/e5a1ac22-f7ba-4fdd-b7cb-eddbc088c71c" />
+<img width="1703" height="845" alt="Ekran görüntüsü 2025-07-20 143651" src="https://github.com/user-attachments/assets/f90f415d-fb25-4cba-88e5-28221b5f25d1" />
 
 ---
 
