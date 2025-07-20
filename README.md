@@ -133,6 +133,7 @@ Oluşturduğumuz veri akışı diagramına buradan ulaşabilirsiniz: 🔗 [Veri 
 - **Perşembe günleri:** Microsoft Teams üzerinden toplantı  
 - **Diğer günler:** WhatsApp üzerinden yazılı iletişim
 Daily Scrum Ekran Görüntüleri:
+
 ![WhatsApp Görsel 2025-07-19 saat 19 20 54_b443a74f](https://github.com/user-attachments/assets/bdc3f380-c6e4-43b0-872b-709e08eca3c2)
 
 
@@ -140,11 +141,14 @@ Daily Scrum Ekran Görüntüleri:
 ---
 
 ### 📌 Scrum Board
+
 <img width="1702" height="810" alt="Ekran görüntüsü 2025-07-19 185241" src="https://github.com/user-attachments/assets/e5a1ac22-f7ba-4fdd-b7cb-eddbc088c71c" />
 
 ---
 
 ### 🛠️ Ürün Durumu Ekran Görüntüleri
+
+![WhatsApp Görsel 2025-07-20 saat 13 48 32_93c2b6b9](https://github.com/user-attachments/assets/32d1a362-37b8-468e-a7b9-af66de94aa2d)
 
 ---
 
