@@ -186,6 +186,7 @@ Temporary Items
 # Firebase credentials (security critical)
 *firebase*adminsdk*.json
 firebase-adminsdk-*.json
+patient-assistant-auth-firebase-adminsdk-*.json
 
 # API keys and secrets
 .env.secret
