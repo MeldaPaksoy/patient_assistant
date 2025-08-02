@@ -1,6 +1,7 @@
 from typing import Generator
 from app.core import model_manager, session_manager
 from .models import ChatRequest, ChatResponse
+from app.config.settings import settings
 import json
 import warnings
 import numpy as np
@@ -16,8 +17,11 @@ class RAGService:
     
     def __init__(self):
         # Pinecone setup
-        self.pc = Pinecone(api_key="pcsk_2Kt7Yb_AnAP1pCZnzZRn1wmravyNemxCLFhdfQK33hqqq2mwV8ohENsHLCFUaNsmEbJnJT")
-        self.pinecone_index = self.pc.Index("commit-index")
+        if not settings.PINECONE_API_KEY:
+            raise ValueError("PINECONE_API_KEY environment variable is required")
+        
+        self.pc = Pinecone(api_key=settings.PINECONE_API_KEY)
+        self.pinecone_index = self.pc.Index(settings.PINECONE_INDEX_NAME)
         
         # Embedding model
         self.embed_model = SentenceTransformer("all-MiniLM-L6-v2")

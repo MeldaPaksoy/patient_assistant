@@ -166,11 +166,24 @@ MESSAGING_SENDER_ID=your_sender_id
 APP_ID=your_app_id
 FIREBASE_SERVICE_ACCOUNT_PATH=path/to/firebase-admin-sdk.json
 
+# Pinecone Configuration
+PINECONE_API_KEY=your_pinecone_api_key
+PINECONE_INDEX_NAME=your_index_name
+
 # Model Configuration
 MODEL_ID=google/medgemma-4b-it
 MAX_NEW_TOKENS=512
 TEMPERATURE=0.1
 ```
+
+### ⚠️ Güvenlik Uyarısı
+
+**ÖNEMLİ:** Aşağıdaki dosyaları asla Git'e commit etmeyin:
+- `.env` dosyaları (API anahtarları içerir)
+- Firebase service account JSON dosyaları (private key içerir)
+- Pinecone API anahtarları
+
+Bu dosyalar `.gitignore`'da listelenmiştir.
 
 ### 5. Uygulamayı Başlatın
 

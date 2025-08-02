@@ -22,6 +22,9 @@ class Settings:
     APP_ID = os.getenv("APP_ID")
     SERVICE_ACCOUNT_PATH = os.getenv("FIREBASE_SERVICE_ACCOUNT_PATH")
     
+    # Pinecone Configuration
+    PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
+    PINECONE_INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "commit-index")
     
     # Model Configuration
     MODEL_ID = "google/medgemma-4b-it"
