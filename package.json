@@ -1,0 +1,36 @@
+{
+  "name": "patient-assistant",
+  "version": "1.0.0",
+  "description": "AI-powered patient assistant with React frontend and FastAPI backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "npm run build:frontend",
+    "build:frontend": "cd frontend && npm run build",
+    "start": "npm run start:frontend",
+    "start:frontend": "cd frontend && npm run start",
+    "install:frontend": "cd frontend && npm install",
+    "test": "cd frontend && npm run test",
+    "lint": "cd frontend && npm run format.fix"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "patient-assistant",
+    "ai",
+    "healthcare",
+    "react",
+    "fastapi",
+    "typescript",
+    "python"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "python": ">=3.8.0"
+  }
+}

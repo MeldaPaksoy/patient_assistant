@@ -1,0 +1,47 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+# FastAPI and ASGI server
+fastapi==0.111.0
+uvicorn==0.30.1
+
+# Additional dependencies
+requests==2.32.3
+requests-toolbelt==0.10.1  # pyrebase4 ile uyumlu sürüm
+typing_extensions==4.12.2
+
+# Machine Learning
+torch==2.7.1+cu118
+torchvision==0.22.1+cu118
+torchaudio==2.7.1+cu118
+transformers==4.42.3       # accelerate ile uyumlu daha stabil bir sürüm
+accelerate==0.31.0         # transformers 4.42.3 ile uyumlu
+
+# LangChain for memory management
+langchain==0.2.11     # langsmith 0.4.x ile uyumlu daha güncel bir sürüm
+langchain-core==0.2.16 # langsmith 0.4.x ile uyumlu daha güncel bir sürüm
+langsmith==0.4.8
+
+# Firebase Authentication
+pyrebase4==4.8.0
+firebase-admin==7.0.0
+
+# Data validation and serialization
+pydantic==2.8.2
+pydantic-settings==2.3.4
+email-validator==2.1.1
+
+# Environment variables
+python-dotenv==1.0.1
+
+# CORS support
+python-multipart==0.0.9
+
+# Firebase Firestore için (auth_service.py tarafından kullanılır)
+google-cloud-firestore==2.18.0
+google-api-core[grpc]==2.19.0
+
+# RAG Dependencies
+sentence-transformers==2.2.2
+pinecone-client==3.2.2
+faiss-cpu==1.7.4
+numpy==1.24.3
