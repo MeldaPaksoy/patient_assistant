@@ -8,9 +8,8 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-Latest-009688?style=for-the-badge&logo=fastapi)
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python)
 
-**AI destekli hasta asistanı - 7/24 sağlık danışmanlığı**
 
-[Demo](#-demo) • [Kurulum](#-kurulum) • [Özellikler](#-özellikler) • [API Docs](#-api-dokümantasyonu) • [Katkıda Bulunma](#-katkıda-bulunma)
+[Demo](#-demo) • [Kurulum](#-kurulum) • [Özellikler](#-özellikler) • [API Docs](#-api-dokümantasyonu) 
 
 </div>
 
@@ -26,9 +25,6 @@
 - [🔧 Konfigürasyon](#-konfigürasyon)
 - [📚 API Dokümantasyonu](#-api-dokümantasyonu)
 - [🏛️ Proje Mimarisi](#️-proje-mimarisi)
-- [🤝 Katkıda Bulunma](#-katkıda-bulunma)
-- [📄 Lisans](#-lisans)
-
 ---
 
 ## 🎯 Proje Hakkında
@@ -122,14 +118,6 @@ npm/pip          - Package management
 ---
 
 ## 🚀 Kurulum
-
-### Gereksinimler
-
-- **Node.js** 16.0.0 veya üzeri
-- **Python** 3.8.0 veya üzeri
-- **npm** (Node.js ile birlikte gelir)
-- **pip** (Python ile birlikte gelir)
-- **Git** (opsiyonel)
 
 ### 1. Projeyi Klonlayın
 
@@ -297,27 +285,6 @@ POST /chat/session   - Yeni oturum oluştur
 DELETE /chat/session/{id} - Oturum sil
 ```
 
-### Örnek API Kullanımı
-
-```javascript
-// Mesaj gönderme
-const response = await fetch("/api/chat/message", {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json",
-    Authorization: `Bearer ${token}`,
-  },
-  body: JSON.stringify({
-    message: "Baş ağrım var, ne yapmalıyım?",
-    session_id: "session_123",
-  }),
-});
-```
-
-**Detaylı API dokümantasyonu:** http://localhost:8000/docs
-
----
-
 ## 🏛️ Proje Mimarisi
 
 ```
@@ -385,86 +352,3 @@ patient-assistant/
 - **Scalable**: Ölçeklenebilir mimari yapı
 
 ---
-
-## 🤝 Katkıda Bulunma
-
-Projeye katkıda bulunmak istiyorsanız:
-
-### 1. Fork ve Clone
-
-```bash
-# Repository'yi fork edin
-# Sonra clone edin
-git clone https://github.com/yourusername/patient-assistant.git
-cd patient-assistant
-```
-
-### 2. Development Branch
-
-```bash
-# Yeni bir branch oluşturun
-git checkout -b feature/amazing-feature
-```
-
-### 3. Değişikliklerinizi Yapın
-
-- Kod standartlarına uyun
-- Type safety (TypeScript) kullanın
-- Testler yazın (varsa)
-- Dokümantasyonu güncelleyin
-
-### 4. Commit ve Push
-
-```bash
-# Değişikliklerinizi commit edin
-git commit -m "feat: add amazing feature"
-
-# Push edin
-git push origin feature/amazing-feature
-```
-
-### 5. Pull Request
-
-GitHub'da pull request oluşturun.
-
-### Code Standards
-
-- **Frontend**: ESLint, Prettier, TypeScript strict mode
-- **Backend**: Black, isort, type hints
-- **Commit**: Conventional commits formatı
-- **Documentation**: README güncellemeleri
-
----
-
-## 📄 Lisans
-
-Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.
-
----
-
-## 📞 İletişim
-
-- **GitHub Issues**: [Issues sayfası](https://github.com/yourusername/patient-assistant/issues)
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-
----
-
-## 🙏 Teşekkürler
-
-- [React](https://reactjs.org/) - UI framework
-- [FastAPI](https://fastapi.tiangolo.com/) - Backend framework
-- [Firebase](https://firebase.google.com/) - Authentication
-- [Google MedGemma](https://huggingface.co/google/medgemma-4b-it) - AI model
-- [Tailwind CSS](https://tailwindcss.com/) - Styling
-- [Radix UI](https://www.radix-ui.com/) - Component primitives
-
----
-
-<div align="center">
-
-**🏥 Patient Assistant ile sağlığınız güvende!**
-
-⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın!
-
-</div>
