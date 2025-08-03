@@ -2,9 +2,10 @@
 
 ## 👥 Takım Bilgileri
 
-**Takım İsmi:**
+**Takım İsmi:** Patient Assistant
 **Takım Numarası:** 70  
-**Takım Logosu:** ![Uploading Ekran görüntüsü 2025-08-03 123227.png…]()
+**Takım Logosu:**  <img width="158" height="36" alt="Ekran görüntüsü 2025-08-03 123227" src="https://github.com/user-attachments/assets/59ea2803-869b-4da9-b39c-181647c68d7e" />
+
 
 
 
