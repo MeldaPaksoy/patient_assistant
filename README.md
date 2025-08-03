@@ -54,6 +54,29 @@
 
 ## 🚀 Kullanılan Teknolojiler
 
+⚙️ Backend
+- FastAPI → Hafif ve yüksek performanslı bir web framework olarak backend API'leri oluşturmak için kullanıldı.
+- Python → Veri işleme, model entegrasyonu ve servislerin geliştirilmesinde ana programlama dili olarak kullanıldı.
+- Qdrant → Vektör veritabanı olarak kullanıldı; embedding veriler burada depolandı ve RAG sistemiyle bağlantılı sorgulama yapıldı.
+- MedGEMMA (Google) → Medikal içeriklerde doğru ve güvenilir metin yanıtları üretmesi amacıyla projeye entegre edildi. Model fine tune edildi ve RAG sistemine bağlandı.
+
+🧠 Yapay Zeka
+- Retrieval-Augmented Generation (RAG) → Modelin daha güvenilir ve bağlama uygun yanıtlar verebilmesi için bilgi getirme temelli sistem entegre edildi.
+- Prompt Tuning → Modelin verdiği yanıtları iyileştirmek için özel istem cümleleri ve örnekler ile ayarlamalar yapıldı.
+- Text-to-Speech (TTS) → Modelin verdiği metin yanıtlar sesli olarak da dinlenebilecek şekilde dönüştürüldü.
+
+💻 Frontend
+- React → Web arayüzü dinamik ve kullanıcı dostu olacak şekilde React ile geliştirildi.
+
+🔐 Kimlik Doğrulama ve Veritabanı
+- Firebase Authentication → Kullanıcıların güvenli giriş yapabilmesi sağlandı.
+- Firebase Realtime Database / Firestore → Kullanıcı verileri ve geçmiş sohbetlerin saklanması için kullanıldı.
+
+## 🎬 Ürün Tanıtım Videosu
+Projenin özelliklerini kısaca tanıtan 2 dakikalık demoyu aşağıdaki bağlantıdan izleyebilirsiniz:
+
+[Video Linki](https://drive.google.com/file/d/16Bfp1d-N-bUYEp91GcflmHcdBPC3ZtM1/view?usp=sharing )
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # 🚀 Sprint 1
