@@ -4,7 +4,8 @@
 
 **Takım İsmi:**
 **Takım Numarası:** 70  
-**Takım Logosu:** ![Logo](#)
+**Takım Logosu:** ![Logo](<img width="158" height="36" alt="Ekran görüntüsü 2025-08-03 123227" src="https://github.com/user-attachments/assets/6a036d1d-f96e-4a39-8eb1-6d5e7144bf05" />)
+
 
 ### Takım Üyeleri
 
@@ -162,3 +163,76 @@ Daily Scrum Ekran Görüntüleri:
   - Veri düzenleme  
   - Arayüzü geliştirme  
   - RAG yapısını oluşturma
+ 
+
+------------------------------------------------------------------------------------------------------
+
+# 🚀 Sprint 3
+
+### 📝 Sprint Notları
+- Veriler Qdrant vektör veritabanına aktarıldı.
+- Veri setlerinden hatalı girdiler çıkarıldı.
+- RAG sistemi projeye entegre edildi.
+- Model yanıt kalitesi artırıldı (prompt tuning + örnek testler).
+- UI/UX tasarımı tamamlandı.
+- Firebase auth tabanlı kullanıcı girişi uygulandı.
+- Metinden sese dönüştürme ile sesli yanıt desteği eklendi.
+- Ürün tüm özellikleriyle birlikte canlıya hazır hale getirildi.
+- Ürün tanıtım videosu hazırlandı.
+
+---
+
+### 🔢 Sprint Puanlaması
+- **Tahmini tamamlanacak puan:** 100 puan  
+- **Puan mantığı:** Proje boyunca toplamda tamamlanması gereken 300 puanlık bir backlog bulunmaktadır. Bu puanlar 3 sprint'e bölünerek her sprintin 100 puan olması gerektiğine karar verilmiştir.
+
+---
+
+### 📅 Daily Scrum Planı
+İlk Hafta:
+- **Perşembe:** Microsoft Teams üzerinden toplantı  
+- **Diğer günler:** WhatsApp üzerinden yazılı iletişim
+
+İkinci Hafta:
+- **Salı- Perşembe:** Microsoft Teams üzerinden toplantı  
+- **Diğer günler:** WhatsApp üzerinden yazılı iletişim
+
+Daily Scrum Ekran Görüntüleri:
+
+<img width="2405" height="1339" alt="Ekran görüntüsü 2025-07-29 212320" src="https://github.com/user-attachments/assets/22aa6648-2cf2-456c-a6c9-a5cc1588729f" />
+
+---
+
+### 📌 Scrum Board
+<img width="1710" height="866" alt="Ekran görüntüsü 2025-08-03 122049" src="https://github.com/user-attachments/assets/f0e6d701-e7f2-4217-a0ae-be05f5ae265b" />
+
+---
+
+### 🛠️ Ürün Durumu Ekran Görüntüleri
+
+![WhatsApp Görsel 2025-08-02 saat 02 00 40_19b3a302](https://github.com/user-attachments/assets/a9cb3ca5-a26d-4f34-a5f7-0ba90acc1be3)
+
+![WhatsApp Görsel 2025-08-02 saat 02 01 20_888f8358](https://github.com/user-attachments/assets/e2ffdfc2-1a2f-4fc8-bf2c-ccd58d4e6077)
+
+![WhatsApp Görsel 2025-08-02 saat 02 01 30_0735023b](https://github.com/user-attachments/assets/7b95c1cf-7e7a-4eb0-8fc8-24724dc60430)
+
+![WhatsApp Görsel 2025-08-02 saat 02 01 43_1337aba3](https://github.com/user-attachments/assets/0d11448f-c6c6-43ff-9a64-26de6280f26e)
+
+![WhatsApp Görsel 2025-08-02 saat 02 02 07_fa5376d0](https://github.com/user-attachments/assets/8c1fbfae-24a9-411c-a5c3-0b01422b0edc)
+
+---
+
+### ✅ Sprint Review
+- İlk hafta Perşembe, ikinci hafta Salı ve Perşembe günlerinde Microsoft Teams üzerinden diğer günlerde ise Whatsapp üzerinden toplantılar yapıldı.
+- İkinci sprintte de tahmin edildiği gibi RAG yapıldıktan sonra model cevaplarında gelişme gözlemlendi ve cevaplar yeterli seviyeye ulaştı.
+- Proje, bootcamp süreci boyunca belirlenen yol haritasına uygun olarak eksiksiz tamamlandı.
+
+---
+
+### 🔄 Sprint Retrospective
+- Son hafta Teams toplantıları artırıldı.
+- Görev dağılımı aşağıdaki şekilde yapıldı:
+  - Arayüzü geliştirme
+  - RAG yapısını oluşturma
+  - Yapılanları arayüze entegre etme
+
