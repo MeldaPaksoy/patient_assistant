@@ -14,6 +14,35 @@ Farklı açık kaynaklardan ve literatürden edinilen medikal içerikler bir ara
 
 Bu veriler, proje kapsamında geliştirilecek QA sisteminin bilgi temeli için normalize edilmiştir.
 
+##  Veri Ön İşleme ve Dönüştürme
+
+Ham veriler, proje gereksinimlerine göre yeniden yapılandırılmış ve farklı formatlara dönüştürülmüştür. Özellikle `.csv`, `.xlsx` gibi kaynaklar **JSON** ve **JSONL** formatlarına çevrilerek:
+
+- QA eğitimi için `train`, `validation`, `test` setleri oluşturulmuştur.
+- **Sık sorulan sorular (SSS)**, semptomlar, hastalık profilleri gibi içerikler bilgi tabanı haline getirilmiştir.
+- **“Efsane-Gerçek” (Myth-Fact)** yapıları, kullanıcı bilgilendirme sistemleri için ayrı dosyalarda toplanmıştır.
+
+Bu süreçte:
+- Eksik değerler temizlenmiş,
+- Alan etiketleri standardize edilmiştir.
+
+
+## Model Geliştirme ve İnce Ayar
+
+Projenin ilk aşamasında **semptom-şikayet** tabanlı bir QA modeli sıfırdan eğitildi. Ancak gerçek kullanım senaryolarında modelin doğruluğu sınırlı kalmıştır. Bu nedenle:
+
+- `kaixkhazaki/turkish-medical-question-answering` adlı hazır model projeye entegre edilmiştir.
+- Model eğitimi ve değerlendirmesi için `transformers` kütüphanesi kullanılmıştır.
+- Belirli konularda yüksek doğruluk elde edilse de, daha geniş kapsamlı bilgi ihtiyacı doğmuştur.
+
+##  RAG Altyapısı ve Bilgi Getirme Sistemi
+
+QA modelinin bilgiye dayalı doğruluğunu artırmak için **Retrieval-Augmented Generation (RAG)** altyapısı kurulmuştur:
+
+- Gömücü olarak `sentence-transformers` tabanlı modeller kullanılmıştır.
+- Bilgi tabanı önce **ChromaDB** ile test edilmiş, ardından **Pinecone** gibi daha ölçeklenebilir çözümlerle yapılandırılmıştır.
+- Kullanıcı sorgularına daha bağlamsal ve isabetli yanıtlar verilmesi sağlanmıştır.
+
 
 ## Proje Dosya Yapısı
 
