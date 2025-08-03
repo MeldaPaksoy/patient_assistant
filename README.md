@@ -75,7 +75,7 @@
 ## 🎬 Ürün Tanıtım Videosu
 Projenin özelliklerini kısaca tanıtan 2 dakikalık demoyu aşağıdaki bağlantıdan izleyebilirsiniz:
 
-[Video Linki](https://drive.google.com/file/d/16Bfp1d-N-bUYEp91GcflmHcdBPC3ZtM1/view?usp=sharing )
+[Video Linki](https://youtu.be/HrYCKnS6Kp0)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
