@@ -5,8 +5,7 @@
 **Takım İsmi:** Patient Assistant  
 **Takım Numarası:** 70  
 
-**Takım Logosu:**  
-<img width="158" height="36" alt="Takım Logosu" src="https://github.com/user-attachments/assets/59ea2803-869b-4da9-b39c-181647c68d7e" />
+**Takım Logosu:**  <img width="158" height="36" alt="Takım Logosu" src="https://github.com/user-attachments/assets/59ea2803-869b-4da9-b39c-181647c68d7e" />
 
 
 
@@ -234,6 +233,9 @@ Daily Scrum Ekran Görüntüleri:
 
 ### 🔄 Sprint Retrospective
 - Son hafta Teams toplantıları artırıldı.
+- Takım içi iletişim güçlüydü, bireysel sorumluluklar başarıyla yerine getirildi.
+- Sürecin sonunda ürünün kararlı çalışması testlerle doğrulandı.
+  
 - Görev dağılımı aşağıdaki şekilde yapıldı:
   - Arayüzü geliştirme
   - RAG yapısını oluşturma
