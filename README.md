@@ -4,7 +4,8 @@
 
 **Takım İsmi:**
 **Takım Numarası:** 70  
-**Takım Logosu:** ![Logo](<img width="158" height="36" alt="Ekran görüntüsü 2025-08-03 123227" src="https://github.com/user-attachments/assets/6a036d1d-f96e-4a39-8eb1-6d5e7144bf05" />)
+**Takım Logosu:** ![Uploading Ekran görüntüsü 2025-08-03 123227.png…]()
+
 
 
 ### Takım Üyeleri
